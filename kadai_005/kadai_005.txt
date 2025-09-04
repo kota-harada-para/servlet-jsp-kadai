@@ -1,17 +1,15 @@
 step1
-git init git_challenge
-
-step2
+mkdir git_challenge
 cd git_challenge
-echo "">>hello_world.txt
+git init
 
-step3
+step2～3
 echo "Hello, world!">>hello_world.txt
 git add hello_world.txt
-git commit -m 一回目のコミット
-echo "こんにちは、世界">>hello_world.txt
+git commit -m hello_world.txtを追加
+echo "こんにちは、世界！">>hello_world.txt
 git add hello_world.txt
-git commit -m 二回目のコミット
+git commit -m 日本語訳を追記
 
 step4
 git log --oneline
